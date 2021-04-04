@@ -52,14 +52,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-This Bot Is Only For @PJMoviesRequest 🤣🤣
+This Bot Is Only For @PJMoviesRequest 🤣
 
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 
-*Main* commands available:
+*Main* commands : [Spiderman](https://telegra.ph/file/4ad1fc720dac4648b11aa.png)
    ❀ /donate: information on how to donate!
    ❀ /settings:
    ❀ in PM: will send you your settings for all supported modules.
@@ -72,7 +72,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4ad1fc720dac4648b11aa.png"
+SAITAMA_IMG = "https://telegra.ph/file/634f4cb8f541ea85f1f1a.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Supporting him; [The Noob](t.me/The_Noob_Hacker)"""
