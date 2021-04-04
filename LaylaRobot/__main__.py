@@ -63,7 +63,6 @@ Hey there! My name is *{}*.
    ❀ /settings:
    ❀ in PM: will send you your settings for all supported modules.
    ❀ in a group: will redirect you to pm, with all that chat's settings.
-   ❀ This Bot Owner : @The_Noob_Hacker
 
 {}
 And the following:
