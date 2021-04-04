@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-This Bot Is Only For @PJMoviesRequest 🤣
+This Bot Is Only For [καииα∂α ƒιℓм яєգυєѕτ](t.me/Kannada_Film_Request) 🤣
 
 """
 
@@ -60,11 +60,10 @@ HELP_STRINGS = """
 Hey there! My name is *{}*.
 
 *Main* commands : [Spiderman](https://telegra.ph/file/4ad1fc720dac4648b11aa.png)
-   ❀ /donate: information on how to donate!
    ❀ /settings:
    ❀ in PM: will send you your settings for all supported modules.
    ❀ in a group: will redirect you to pm, with all that chat's settings.
-
+   ❀ This Bot Owner : @The_Noob_Hacker
 
 {}
 And the following:
@@ -200,7 +199,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/PJMoviesRequest"),
+                             url=f"https://t.me/Kannada_Film_Request"),
                          InlineKeyboardButton(
                              text="Join Channel",
                              url="https://t.me/Pruthvi_RJ_Movies")
