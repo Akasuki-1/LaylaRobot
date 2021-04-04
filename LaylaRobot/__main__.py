@@ -60,12 +60,8 @@ HELP_STRINGS = """
 Hey there! My name is *{}*.
 
 *Main* commands : [Spiderman](https://telegra.ph/file/4ad1fc720dac4648b11aa.png)
-   ❀ /settings:
-   ❀ in PM: will send you your settings for all supported modules.
-   ❀ in a group: will redirect you to pm, with all that chat's settings.
 
-{}
-And the following:
+Join [καииα∂α ƒιℓм яєգυєѕτ ◕‿◕](https://t.me/Kannada_Film_Request) To Use This Bot:
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
@@ -197,10 +193,10 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="Support Group",
+                             text="My Group",
                              url=f"https://t.me/Kannada_Film_Request"),
                          InlineKeyboardButton(
-                             text="Join Channel",
+                             text="My Channel",
                              url="https://t.me/Pruthvi_RJ_Movies")
                      ],
                      [
