@@ -131,6 +131,6 @@ dispatcher.add_handler(DISAPPROVE)
 dispatcher.add_handler(LIST_APPROVED)
 dispatcher.add_handler(APPROVAL)
 
-__mod_name__ = "Approval"
+__mod_name__ = "Aᴘᴘʀᴏᴠᴀʟ 🦹‍♂"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVAL]
