@@ -189,4 +189,4 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 Note: /FSub is an alias of /ForceSubscribe
  
 """
-__mod_name__ = "✯ 𝐅 Sᴜʙsᴄʀɪʙᴇ✯ "
+__mod_name__ = "📢 Fᴏʀᴄᴇ Sᴜʙ "
